@@ -1257,7 +1257,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Canva Server is Live Now', port);
+    res.send('Canva Server is Live Now');
 });
 
 app.listen(port, () => {
